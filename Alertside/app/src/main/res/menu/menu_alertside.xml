@@ -1,0 +1,34 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:hmkcode="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/pcmenu"
+        android:orderInCategory="96"
+        hmkcode:showAsAction="always"
+        android:icon="@mipmap/pc"
+        android:title="PC"/>
+    <item
+        android:id="@+id/ps4eumenu"
+        android:orderInCategory="97"
+        hmkcode:showAsAction="always"
+        android:icon="@mipmap/ps4eu"
+        android:title="PS4 EU"/>
+    <item
+        android:id="@+id/ps4usmenu"
+        android:orderInCategory="98"
+        hmkcode:showAsAction="always"
+        android:icon="@mipmap/ps4us"
+        android:title="PS4 US"/>
+
+    <item
+        android:id="@+id/donate"
+        android:orderInCategory="99"
+        hmkcode:showAsAction="never"
+        android:icon="@mipmap/cert"
+        android:title="Donate"/>
+    <item
+        android:id="@+id/exit"
+        android:orderInCategory="100"
+        hmkcode:showAsAction="never"
+        android:icon="@mipmap/exit"
+        android:title="Exit"/>
+</menu>
